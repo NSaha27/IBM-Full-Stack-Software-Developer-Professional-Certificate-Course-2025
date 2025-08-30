@@ -1,0 +1,581 @@
+<html data-lt-installed="true"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+                <style>
+                    .linenums {
+                        list-style-type: none;
+                    }
+
+                    .formatted-line-numbers {
+                        display: none;
+                    }
+                    .action-code-block {
+                        display: none;
+                    }
+                    table {
+                        border-collapse: collapse;
+                        width: 100%;
+                    }
+                    table, th, td {
+                        border: 1px solid black;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                </style>
+            </head><body><h1><span class="header-link octicon octicon-link"></span>Cheatsheet: HTML5 Overview</h1><table>
+<tbody><tr>
+    <th width="17%">Element</th>
+    <th width="40%">Description</th>
+    <th width="43%">Example</th>
+</tr>
+
+<tr>
+    <td>
+      &lt;!--&nbsp; --&gt;
+    </td>
+    <td>
+This tag denotes a comment in HTML, which is not displayed by a browser but can be useful to hide and document code.
+    </td>
+    <td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li></ol><ol class="linenums"><li class="L0"><code><span class="com">&lt;!-- This is a comment --&gt;</span></code></li></ol>
+          <div class="code-block-actions z-0 single-line">
+            <button title="Copy" class="action-code-block copy-code-block">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-0">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-0">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        &lt;!DOCTYPE html&gt;
+    </td>
+    <td>
+All HTML documents must start with this declaration. It tells the 
+browser what document type to expect. Note that this element has no 
+ending tag.
+    </td>
+    <td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li></ol><ol class="linenums"><li class="L0"><code><span class="dec">&lt;!DOCTYPE html&gt;</span></code></li><li class="L1"><code><span class="tag">&lt;html&gt;</span></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;head&gt;</span></code></li><li class="L3"><code><span class="pln">      </span><span class="com">&lt;!--&nbsp;Metadata Here --&gt;</span></code></li><li class="L4"><code><span class="pln">    </span><span class="tag">&lt;/head&gt;</span></code></li><li class="L5"><code><span class="pln">    </span><span class="tag">&lt;body&gt;</span></code></li><li class="L6"><code><span class="pln">        </span><span class="com">&lt;!--&nbsp;Document Body Here --&gt;</span></code></li><li class="L7"><code><span class="pln">    </span><span class="tag">&lt;/body&gt;</span></code></li><li class="L8"><code><span class="tag">&lt;/html&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-1">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-1">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        &lt;a href= “path”&gt;link name&lt;/a&gt;
+    </td>
+    <td>
+This tag, called an “anchor tag” creates hyperlinks using the href 
+attribute. In place of path enter the URL or path name to the page you 
+want to link to.
+    </td>
+    <td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"https://www.ibm.com"</span><span class="tag">&gt;</span><span class="pln">IBM</span><span class="tag">&lt;/a&gt;</span></code></li></ol>
+          <div class="code-block-actions z-0 single-line">
+            <button title="Copy" class="action-code-block copy-code-block">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-2">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-2">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        &lt;body&gt;
+    </td>
+    <td>
+Contains the contents of the HTML document. It should contain all other 
+tags besides the &lt;head&gt; element to display the body of the 
+document.
+    </td>
+    <td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li></ol><ol class="linenums"><li class="L0"><code><span class="dec">&lt;!DOCTYPE html&gt;</span></code></li><li class="L1"><code><span class="tag">&lt;html&gt;</span></code></li><li class="L2"><code><span class="pln">  </span><span class="tag">&lt;head&gt;</span></code></li><li class="L3"><code><span class="pln">    </span><span class="com">&lt;!--&nbsp;Metadata Here --&gt;</span></code></li><li class="L4"><code><span class="pln">  </span><span class="tag">&lt;/head&gt;</span></code></li><li class="L5"><code><span class="pln">  </span><span class="tag">&lt;body&gt;</span></code></li><li class="L6"><code><span class="pln">      </span><span class="com">&lt;!--&nbsp;Document Body Here --&gt;</span></code></li><li class="L7"><code><span class="pln">  </span><span class="tag">&lt;/body&gt;</span></code></li><li class="L8"><code><span class="tag">&lt;/html&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-3">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-3">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        &lt;div&gt;
+    </td>
+    <td>
+Often used to separate sections in the body of a document in order to style that content with CSS.
+    </td><td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;div&gt;</span></code></li><li class="L1"><code><span class="pln">This element has no particular semantic&nbsp;meaning but is often used in conjunction&nbsp;with CSS for styling purposes.</span></code></li><li class="L2"><code><span class="tag">&lt;/div&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-4">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-4">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        &lt;h1&gt;
+    </td>
+    <td>
+Adds a level 1 heading to the HTML document.
+    </td><td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;h1&gt;</span><span class="pln">Thomas J. Watson</span><span class="tag">&lt;/h1&gt;</span></code></li></ol>
+          <div class="code-block-actions z-0 single-line">
+            <button title="Copy" class="action-code-block copy-code-block">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-5">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-5">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        &lt;head&gt;
+    </td>
+    <td>
+Contains metadata and should be placed after the &lt;html&gt; tag and before the &lt;body&gt; tag.
+    </td><td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li></ol><ol class="linenums"><li class="L0"><code><span class="dec">&lt;!DOCTYPE html&gt;</span></code></li><li class="L1"><code><span class="tag">&lt;html&gt;</span></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;head&gt;</span></code></li><li class="L3"><code><span class="pln">        </span><span class="com">&lt;!--&nbsp;Metadata Here --&gt;</span></code></li><li class="L4"><code><span class="pln">    </span><span class="tag">&lt;/head&gt;</span></code></li><li class="L5"><code><span class="pln">    </span><span class="tag">&lt;body&gt;</span></code></li><li class="L6"><code><span class="pln">        </span><span class="com">&lt;!--&nbsp;Document Body Here --&gt;</span></code></li><li class="L7"><code><span class="pln">    </span><span class="tag">&lt;/body&gt;</span></code></li><li class="L8"><code><span class="tag">&lt;/html&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-6">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-6">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        &lt;html&gt;
+    </td>
+    <td>
+The root element of an HTML document. All other tags in the document should be contained in this tag.</td>
+    <td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li></ol><ol class="linenums"><li class="L0"><code><span class="dec">&lt;!DOCTYPE html&gt;</span></code></li><li class="L1"><code><span class="tag">&lt;html&gt;</span></code></li><li class="L2"><code><span class="pln">  </span><span class="tag">&lt;head&gt;</span></code></li><li class="L3"><code><span class="pln">     </span><span class="com">&lt;!--&nbsp;Metadata Here --&gt;</span></code></li><li class="L4"><code><span class="pln">  </span><span class="tag">&lt;/head&gt;</span></code></li><li class="L5"><code><span class="pln">  </span><span class="tag">&lt;body&gt;</span></code></li><li class="L6"><code><span class="pln">      </span><span class="com">&lt;!--&nbsp;Document Body Here --&gt;</span></code></li><li class="L7"><code><span class="pln">  </span><span class="tag">&lt;/body&gt;</span></code></li><li class="L8"><code><span class="tag">&lt;/html&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-7">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-7">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        &lt;img src=“path” width=“dim1” height=“dim2”&gt;
+    </td>
+    <td>
+This tag is used to place an img.&nbsp;In place of path insert a URL or a
+ relative file path to the image location.&nbsp;Other optional 
+attributes include width and height of the image in pixels.
+    </td><td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">“https://upload.wikimedia.org/wikipedia/commons/7/7e/Thomas_J_Watson_Sr.jpg”</span><span class="pln"> </span><span class="atn">width</span><span class="pun">=</span><span class="atv">“300”</span><span class="pln"> </span><span class="atn">height</span><span class="pun">=</span><span class="atv">“300”</span><span class="tag">/&gt;</span></code></li></ol>
+          <div class="code-block-actions z-0 single-line">
+            <button title="Copy" class="action-code-block copy-code-block">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-8">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-8">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        &lt;li&gt;
+    </td>
+    <td>
+Element that creates bulleted line items in an ordered or unordered 
+list.&nbsp; Should be used in conjunction with the &lt;ul&gt; or 
+&lt;ol&gt; tags.
+    </td><td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;ul&gt;</span></code></li><li class="L1"><code><span class="pln">    </span><span class="tag">&lt;li&gt;</span><span class="pln">Bullet point 1</span><span class="tag">&lt;/li&gt;</span></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;li&gt;</span><span class="pln">Bullet point 2</span><span class="tag">&lt;/li&gt;</span></code></li><li class="L3"><code><span class="tag">&lt;/ul&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-9">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-9">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        &lt;link&gt;
+    </td>
+    <td>
+Used to link an external document, such as a CSS file, to an HTML document.
+    </td><td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;head&gt;</span></code></li><li class="L1"><code><span class="pln">    </span><span class="tag">&lt;link</span><span class="pln"> </span><span class="atn">rel</span><span class="pun">=</span><span class="atv">“stylesheet”</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">“styles.css”</span><span class="tag">&gt;</span></code></li><li class="L2"><code><span class="tag">&lt;/head&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-10">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-10">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+
+<tr>
+    <td>
+        &lt;meta&gt;
+    </td>
+    <td>
+Used to provide metadata about the HTML document.
+    </td><td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;head&gt;</span></code></li><li class="L1"><code><span class="pln">    </span><span class="tag">&lt;meta</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">“author”</span><span class="pln"> </span><span class="atn">content</span><span class="pun">=</span><span class="atv">“Christopher</span><span class="pln"> </span><span class="atn">Moore</span><span class="pln">”</span><span class="tag">&gt;</span></code></li><li class="L2"><code><span class="tag">&lt;/head&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-11">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-11">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        &lt;ol&gt;
+    </td>
+    <td>
+Element that creates an ordered list using numbers. Should be used in conjunction with the &lt;li&gt; tag.
+    </td><td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;ol&gt;</span></code></li><li class="L1"><code><span class="pln">    </span><span class="tag">&lt;li&gt;</span><span class="pln">Numbered bullet point 1</span><span class="tag">&lt;/li&gt;</span></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;li&gt;</span><span class="pln">Numbered bullet point 2</span><span class="tag">&lt;/li&gt;</span></code></li><li class="L3"><code><span class="tag">&lt;/ol&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-12">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-12">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        &lt;p&gt;
+    </td>
+    <td>
+This tag is used to identify a paragraph.&nbsp;It places a line break after the text it is enclosed in.
+    </td><td>
+        <pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;p&gt;</span><span class="pln">This is a paragraph of text. It can be as short or as long as needed.</span><span class="tag">&lt;/p&gt;</span></code></li></ol>
+          <div class="code-block-actions z-0 single-line">
+            <button title="Copy" class="action-code-block copy-code-block">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-13">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-13">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        &lt;script&gt;
+    </td>
+    <td>
+Used to embed JavaScript in an HTML document.
+    </td><td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;script&gt;</span></code></li><li class="L1"><code><span class="pln">    alert</span><span class="pun">(“</span><span class="typ">Hello</span><span class="pln"> </span><span class="typ">World</span><span class="pun">”);</span></code></li><li class="L2"><code><span class="tag">&lt;/script&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-14">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-14">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        &lt;table&gt;
+    </td>
+    <td>
+This tag is used to denote a table. Should be used with &lt;tr&gt; 
+(defines a table row) and &lt;td&gt; (defines a table cell within a row)
+ tags.&nbsp;The &lt;th&gt; tag can also be used to define the table 
+header row.
+    </td><td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li><li>12</li><li>13</li><li>14</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;table&gt;</span></code></li><li class="L1"><code><span class="pln">  </span><span class="tag">&lt;tr&gt;</span></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;th&gt;</span><span class="pln">Header cell 1</span><span class="tag">&lt;/th&gt;</span></code></li><li class="L3"><code><span class="pln">    </span><span class="tag">&lt;th&gt;</span><span class="pln">Header cell 2</span><span class="tag">&lt;/th&gt;</span></code></li><li class="L4"><code><span class="pln">  </span><span class="tag">&lt;/tr&gt;</span></code></li><li class="L5"><code><span class="pln">  </span><span class="tag">&lt;tr&gt;</span></code></li><li class="L6"><code><span class="pln">    </span><span class="tag">&lt;td&gt;</span><span class="pln">First row first cell</span><span class="tag">&lt;/td&gt;</span></code></li><li class="L7"><code><span class="pln">    </span><span class="tag">&lt;td&gt;</span><span class="pln">First row second cell</span><span class="tag">&lt;/td&gt;</span></code></li><li class="L8"><code><span class="pln">  </span><span class="tag">&lt;/tr&gt;</span></code></li><li class="L9"><code><span class="pln">  </span><span class="tag">&lt;tr&gt;</span></code></li><li class="L0"><code><span class="pln">    </span><span class="tag">&lt;td&gt;</span><span class="pln">Second row first cell</span><span class="tag">&lt;/td&gt;</span></code></li><li class="L1"><code><span class="pln">    </span><span class="tag">&lt;td&gt;</span><span class="pln">Second row second cell</span><span class="tag">&lt;/td&gt;</span></code></li><li class="L2"><code><span class="pln">  </span><span class="tag">&lt;/tr&gt;</span></code></li><li class="L3"><code><span class="tag">&lt;/table&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-15">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-15">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+  </td>
+</tr>
+
+<tr>
+    <td>
+        &lt;td&gt;
+    </td>
+    <td>
+Denotes a cell within a row, within a table.
+    </td><td>
+        
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;td&gt;</span><span class="pln">Cell Content</span><span class="tag">&lt;/td&gt;</span></code></li></ol>
+          <div class="code-block-actions z-0 single-line">
+            <button title="Copy" class="action-code-block copy-code-block">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-16">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-16">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        &lt;th&gt;
+    </td>
+    <td>
+Denotes the header cells within a row within a table.
+    </td><td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li><li>12</li><li>13</li><li>14</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;table&gt;</span></code></li><li class="L1"><code><span class="pln">  </span><span class="tag">&lt;tr&gt;</span></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;th&gt;</span><span class="pln">Header cell 1</span><span class="tag">&lt;/th&gt;</span></code></li><li class="L3"><code><span class="pln">    </span><span class="tag">&lt;th&gt;</span><span class="pln">Header cell 2</span><span class="tag">&lt;/th&gt;</span></code></li><li class="L4"><code><span class="pln">  </span><span class="tag">&lt;/tr&gt;</span></code></li><li class="L5"><code><span class="pln">  </span><span class="tag">&lt;tr&gt;</span></code></li><li class="L6"><code><span class="pln">    </span><span class="tag">&lt;td&gt;</span><span class="pln">First row first cell</span><span class="tag">&lt;/td&gt;</span></code></li><li class="L7"><code><span class="pln">    </span><span class="tag">&lt;td&gt;</span><span class="pln">First row second cell</span><span class="tag">&lt;/td&gt;</span></code></li><li class="L8"><code><span class="pln">  </span><span class="tag">&lt;/tr&gt;</span></code></li><li class="L9"><code><span class="pln">  </span><span class="tag">&lt;tr&gt;</span></code></li><li class="L0"><code><span class="pln">    </span><span class="tag">&lt;td&gt;</span><span class="pln">Second row first cell</span><span class="tag">&lt;/td&gt;</span></code></li><li class="L1"><code><span class="pln">    </span><span class="tag">&lt;td&gt;</span><span class="pln">Second row second cell</span><span class="tag">&lt;/td&gt;</span></code></li><li class="L2"><code><span class="pln">  </span><span class="tag">&lt;/tr&gt;</span></code></li><li class="L3"><code><span class="tag">&lt;/table&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-17">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-17">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+<tr>
+    <td>
+        <code>&lt;title&gt;</code>
+    </td>
+    <td>
+Defines the title of the HTML document displayed in the browser’s title 
+bar and tabs. It is required in all HTML documents. It should be 
+contained in the &lt;head&gt; tag.
+    </td>
+    <td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li></ol><ol class="linenums"><li class="L0"><code><span class="dec">&lt;!DOCTYPE html&gt;</span></code></li><li class="L1"><code><span class="tag">&lt;html&gt;</span></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;head&gt;</span></code></li><li class="L3"><code><span class="pln">        </span><span class="tag">&lt;title&gt;</span><span class="pln">Document Title</span><span class="tag">&lt;/title&gt;</span></code></li><li class="L4"><code><span class="pln">    </span><span class="tag">&lt;/head&gt;</span></code></li><li class="L5"><code><span class="pln">    </span><span class="tag">&lt;body&gt;</span></code></li><li class="L6"><code><span class="pln">        </span><span class="com">&lt;!--&nbsp;Document Body Here --&gt;</span></code></li><li class="L7"><code><span class="pln">    </span><span class="tag">&lt;/body&gt;</span></code></li><li class="L8"><code><span class="tag">&lt;/html&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-18">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-18">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+   </td>
+</tr>
+
+<tr>
+    <td>
+        &lt;tr&gt;
+    </td>
+    <td>
+Denotes a row within a table.
+    </td><td>
+    <code>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li><li>12</li><li>13</li><li>14</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;table&gt;</span></code></li><li class="L1"><code><span class="pln">  </span><span class="tag">&lt;tr&gt;</span></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;th&gt;</span><span class="pln">Header cell 1</span><span class="tag">&lt;/th&gt;</span></code></li><li class="L3"><code><span class="pln">    </span><span class="tag">&lt;th&gt;</span><span class="pln">Header cell 2</span><span class="tag">&lt;/th&gt;</span></code></li><li class="L4"><code><span class="pln">  </span><span class="tag">&lt;/tr&gt;</span></code></li><li class="L5"><code><span class="pln">  </span><span class="tag">&lt;tr&gt;</span></code></li><li class="L6"><code><span class="pln">    </span><span class="tag">&lt;td&gt;</span><span class="pln">First row first cell</span><span class="tag">&lt;/td&gt;</span></code></li><li class="L7"><code><span class="pln">    </span><span class="tag">&lt;td&gt;</span><span class="pln">First row second cell</span><span class="tag">&lt;/td&gt;</span></code></li><li class="L8"><code><span class="pln">  </span><span class="tag">&lt;/tr&gt;</span></code></li><li class="L9"><code><span class="pln">  </span><span class="tag">&lt;tr&gt;</span></code></li><li class="L0"><code><span class="pln">    </span><span class="tag">&lt;td&gt;</span><span class="pln">Second row first cell</span><span class="tag">&lt;/td&gt;</span></code></li><li class="L1"><code><span class="pln">    </span><span class="tag">&lt;td&gt;</span><span class="pln">Second row second cell</span><span class="tag">&lt;/td&gt;</span></code></li><li class="L2"><code><span class="pln">  </span><span class="tag">&lt;/tr&gt;</span></code></li><li class="L3"><code><span class="tag">&lt;/table&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-19">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-19">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</code>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        &lt;ul&gt;
+    </td>
+    <td>
+Element that creates an unordered list using bullets.&nbsp;Should be used in conjunction with the <li> tag.
+    </li></td><td>
+        <code>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li></ol><ol class="linenums"><li class="L0"><code><span class="tag">&lt;ul&gt;</span></code></li><li class="L1"><code><span class="pln">    </span><span class="tag">&lt;li&gt;</span><span class="pln">Bullet point 1</span><span class="tag">&lt;/li&gt;</span></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;li&gt;</span><span class="pln">Bullet point 2</span><span class="tag">&lt;/li&gt;</span></code></li><li class="L3"><code><span class="tag">&lt;/ul&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-20">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-20">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+   </code>
+    </td>
+</tr>
+</tbody></table><footer>
+<img src="html_cheatsheet_files/SNIBMfooter.png" alt="cognitiveclass.ai logo">
+</footer></body></html>
