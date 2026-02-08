@@ -11,9 +11,10 @@ class Employee extends Component {
   };
   render() {
     const { empName, empPhone, empEmail } = this.state;
+    const { empDesig } = this.props;
     return (
       <div>
-        <h1>Save Employee Details</h1>
+        <h1>Add Employee Details</h1>
         <table>
           <tbody>
             <tr>
@@ -55,6 +56,18 @@ class Employee extends Component {
                   id="empEmail"
                   value={empEmail}
                   onChange={this.handleInputChange}
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Designation </td>
+              <td>
+                <input
+                  type="text"
+                  name="empDesig"
+                  id="empDesig"
+                  value={empDesig}
+                  readonly
                 />
               </td>
             </tr>
