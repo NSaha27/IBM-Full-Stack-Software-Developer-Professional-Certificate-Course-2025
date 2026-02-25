@@ -1,0 +1,251 @@
+<html data-lt-installed="true"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+                <style>
+                    .linenums {
+                        list-style-type: none;
+                    }
+
+                    .formatted-line-numbers {
+                        display: none;
+                    }
+                    .action-code-block {
+                        display: none;
+                    }
+                    table {
+                        border-collapse: collapse;
+                        width: 100%;
+                    }
+                    table, th, td {
+                        border: 1px solid black;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                </style>
+            </head><body><h1><span class="header-link octicon octicon-link"></span>Cheat Sheet: Introduction to React and Class Components</h1><p></p><p></p><table>
+<tbody><tr>
+<th width="20%">JSX syntax and Class Component </th><th width="50%">Description </th><th width="30%">Code Example</th>
+</tr>
+
+<tr>
+<td><b>Vite tool</b></td>
+<td>This tool is used to create React projects with the latest version </td>
+<td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li></ol><ol class="linenums"><li class="L0"><code class="language-html"><span class="pln">npm create vite@latest</span></code></li></ol>
+          <div class="code-block-actions z-0 single-line">
+            <button title="Copy" class="action-code-block copy-code-block">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-0">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-0">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+
+
+
+<tr>
+<td><b>JSX syntax with fragments</b></td>
+<td>Jsx allows to include multiple tags within single parent tag only. For this you can include empty tags also known as fragments <code>&lt;&gt;&lt;/&gt;</code></td>
+<td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li></ol><ol class="linenums"><li class="L0"><code class="language-html"><span class="pln">&lt;&gt;</span></code></li><li class="L1"><code class="language-html"><span class="tag">&lt;h1&gt;</span><span class="pln">This is a heading tag</span><span class="tag">&lt;/h1&gt;</span></code></li><li class="L2"><code class="language-html"><span class="pln">&lt;/&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-1">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-1">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+    
+<tr>
+<td><b>JSX syntax with parent tag</b></td>
+<td>Jsx allows to include multiple tags within single parent tag only. For this you can  include tags like div tag</td>
+<td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li></ol><ol class="linenums"><li class="L0"><code class="language-html"><span class="tag">&lt;div&gt;</span></code></li><li class="L1"><code class="language-html"><span class="tag">&lt;h1&gt;</span><span class="pln">This is a heading tag</span><span class="tag">&lt;/h1&gt;</span></code></li><li class="L2"><code class="language-html"><span class="tag">&lt;/div&gt;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-2">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-2">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+    
+    
+<tr>
+<td><b>Class component</b></td>
+    <td>A class component extends the <code>Component</code> class with a render method </td>
+<td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li></ol><ol class="linenums"><li class="L0"><code class="language-html"><span class="pln">import React, { Component } from 'react'</span></code></li><li class="L1"><code class="language-html"><span class="pln">export default class Extra extends Component {</span></code></li><li class="L2"><code class="language-html"><span class="pln">  render() {</span></code></li><li class="L3"><code class="language-html"><span class="pln">    return (</span></code></li><li class="L4"><code class="language-html"><span class="pln">     &lt;&gt;</span></code></li><li class="L5"><code class="language-html"><span class="pln">     </span><span class="tag">&lt;p&gt;</span><span class="pln">This is class component</span><span class="tag">&lt;/p&gt;</span></code></li><li class="L6"><code class="language-html"><span class="pln">     &lt;/&gt;</span></code></li><li class="L7"><code class="language-html"><span class="pln">    )</span></code></li><li class="L8"><code class="language-html"><span class="pln">  }</span></code></li><li class="L9"><code class="language-html"><span class="pln">}</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-3">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-3">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+    
+    
+    
+    
+<tr>
+<td><b>State management in class component</b></td>
+<td>State can be managed using <code>this.state</code> within constructor of class component</td>
+<td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li><li>12</li><li>13</li><li>14</li><li>15</li><li>16</li></ol><ol class="linenums"><li class="L0"><code class="language-html"><span class="pln">import React, { Component } from 'react'</span></code></li><li class="L1"><code class="language-html"><span class="pln">export default class Extra extends Component {</span></code></li><li class="L2"><code class="language-html"><span class="pln">    constructor(){</span></code></li><li class="L3"><code class="language-html"><span class="pln">    super();</span></code></li><li class="L4"><code class="language-html"><span class="pln">        this.state={</span></code></li><li class="L5"><code class="language-html"><span class="pln">            count:0</span></code></li><li class="L6"><code class="language-html"><span class="pln">        }</span></code></li><li class="L7"><code class="language-html"><span class="pln">    }</span></code></li><li class="L8"><code class="language-html"><span class="pln">  render() {</span></code></li><li class="L9"><code class="language-html"><span class="pln">    return (</span></code></li><li class="L0"><code class="language-html"><span class="pln">     &lt;&gt;</span></code></li><li class="L1"><code class="language-html"><span class="tag">&lt;p&gt;</span><span class="pln">This is paragraph</span><span class="tag">&lt;/p&gt;</span></code></li><li class="L2"><code class="language-html"><span class="pln">     &lt;/&gt;</span></code></li><li class="L3"><code class="language-html"><span class="pln">    )</span></code></li><li class="L4"><code class="language-html"><span class="pln">  }</span></code></li><li class="L5"><code class="language-html"><span class="pln">}</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-4">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-4">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+    
+    
+    
+    
+<tr>
+<td><b>Access data of state management within class component</b></td>
+<td>Data can be accessed by including variable name declared within  <code>{}</code> and include variable name within these curly braces</td>
+<td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li><li>12</li><li>13</li><li>14</li><li>15</li><li>16</li></ol><ol class="linenums"><li class="L0"><code class="language-html"><span class="pln">import React, { Component } from 'react'</span></code></li><li class="L1"><code class="language-html"><span class="pln">export default class Extra extends Component {</span></code></li><li class="L2"><code class="language-html"><span class="pln">    constructor(){</span></code></li><li class="L3"><code class="language-html"><span class="pln">    super();</span></code></li><li class="L4"><code class="language-html"><span class="pln">        this.state={</span></code></li><li class="L5"><code class="language-html"><span class="pln">            count:0</span></code></li><li class="L6"><code class="language-html"><span class="pln">        }</span></code></li><li class="L7"><code class="language-html"><span class="pln">    }</span></code></li><li class="L8"><code class="language-html"><span class="pln">  render() {</span></code></li><li class="L9"><code class="language-html"><span class="pln">    return (</span></code></li><li class="L0"><code class="language-html"><span class="pln">     &lt;&gt;</span></code></li><li class="L1"><code class="language-html"><span class="tag">&lt;p&gt;</span><span class="pln">the count is {this.state.count}</span><span class="tag">&lt;/p&gt;</span></code></li><li class="L2"><code class="language-html"><span class="pln">     &lt;/&gt;</span></code></li><li class="L3"><code class="language-html"><span class="pln">    )</span></code></li><li class="L4"><code class="language-html"><span class="pln">  }</span></code></li><li class="L5"><code class="language-html"><span class="pln">}</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-5">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-5">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+    
+    
+    
+    
+
+<tr>
+<td><b>Props in class component</b></td>
+<td>Props can be sent from parent component as attribute along with child component</td>
+<td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li><li>12</li><li>13</li><li>14</li><li>15</li><li>16</li><li>17</li><li>18</li><li>19</li></ol><ol class="linenums"><li class="L0"><code class="language-html"><span class="pln">import React, { Component } from 'react'</span></code></li><li class="L1"><code class="language-html"><span class="pln">import ChildComponent from './ChildComponent'</span></code></li><li class="L2"><code class="language-html"></code></li><li class="L3"><code class="language-html"><span class="pln">export default class App extends Component {</span></code></li><li class="L4"><code class="language-html"><span class="pln">  constructor(){</span></code></li><li class="L5"><code class="language-html"><span class="pln">    super()</span></code></li><li class="L6"><code class="language-html"><span class="pln">this.state={</span></code></li><li class="L7"><code class="language-html"><span class="pln">  title:"Manager"</span></code></li><li class="L8"><code class="language-html"><span class="pln">}</span></code></li><li class="L9"><code class="language-html"><span class="pln">  }</span></code></li><li class="L0"><code class="language-html"></code></li><li class="L1"><code class="language-html"><span class="pln">  render() {</span></code></li><li class="L2"><code class="language-html"><span class="pln">    return (</span></code></li><li class="L3"><code class="language-html"><span class="pln">      &lt;&gt;</span></code></li><li class="L4"><code class="language-html"><span class="pln">      </span><span class="tag">&lt;Extra</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">{this.state.title}</span><span class="tag">/&gt;</span></code></li><li class="L5"><code class="language-html"><span class="pln">      &lt;/&gt;</span></code></li><li class="L6"><code class="language-html"><span class="pln">    )</span></code></li><li class="L7"><code class="language-html"><span class="pln">  }</span></code></li><li class="L8"><code class="language-html"><span class="pln">}</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-6">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-6">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+    
+    
+    
+    
+<tr>
+<td><b>Access props within child class component</b></td>
+<td>Props can be accessed easily within the child class component using <code>this.props.variable_name</code></td>
+<td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li><li>12</li><li>13</li><li>14</li><li>15</li><li>16</li><li>17</li></ol><ol class="linenums"><li class="L0"><code class="language-html"><span class="pln">import React, { Component } from 'react'</span></code></li><li class="L1"><code class="language-html"></code></li><li class="L2"><code class="language-html"><span class="pln">export default class Extra extends Component {</span></code></li><li class="L3"><code class="language-html"><span class="pln">    constructor(props){</span></code></li><li class="L4"><code class="language-html"><span class="pln">        super();</span></code></li><li class="L5"><code class="language-html"><span class="pln">        this.state={</span></code></li><li class="L6"><code class="language-html"><span class="pln">            count:0</span></code></li><li class="L7"><code class="language-html"><span class="pln">        }</span></code></li><li class="L8"><code class="language-html"><span class="pln">    }</span></code></li><li class="L9"><code class="language-html"><span class="pln">  render() {</span></code></li><li class="L0"><code class="language-html"><span class="pln">    return (</span></code></li><li class="L1"><code class="language-html"><span class="pln">     &lt;&gt;</span></code></li><li class="L2"><code class="language-html"><span class="tag">&lt;p&gt;</span><span class="pln">The count value is {this.props.title}</span><span class="tag">&lt;/p&gt;</span></code></li><li class="L3"><code class="language-html"><span class="pln">     &lt;/&gt;</span></code></li><li class="L4"><code class="language-html"><span class="pln">    )</span></code></li><li class="L5"><code class="language-html"><span class="pln">  }</span></code></li><li class="L6"><code class="language-html"><span class="pln">}</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-7">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-7">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+    
+    
+    
+    
+    
+<tr>
+<td><b>Event handling in class component</b></td>
+<td>Events such as click events are handled by defining a function before the <code>render</code> method </td>
+<td>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li><li>12</li><li>13</li><li>14</li><li>15</li></ol><ol class="linenums"><li class="L0"><code class="language-html"><span class="pln">import React, { Component } from 'react';</span></code></li><li class="L1"><code class="language-html"><span class="pln">class MyComponent extends Component {</span></code></li><li class="L2"><code class="language-html"><span class="pln">  handleClick() {</span></code></li><li class="L3"><code class="language-html"><span class="pln">    alert('Button clicked!');</span></code></li><li class="L4"><code class="language-html"><span class="pln">  }</span></code></li><li class="L5"><code class="language-html"><span class="pln">  render() {</span></code></li><li class="L6"><code class="language-html"><span class="pln">    return (</span></code></li><li class="L7"><code class="language-html"><span class="pln">      </span><span class="tag">&lt;div&gt;</span></code></li><li class="L8"><code class="language-html"><span class="pln">        </span><span class="tag">&lt;h1&gt;</span><span class="pln">Event Handling in Class Component</span><span class="tag">&lt;/h1&gt;</span></code></li><li class="L9"><code class="language-html"><span class="pln">        </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">onClick</span><span class="pun">={</span><span class="kwd">this</span><span class="pun">.</span><span class="pln">handleClick</span><span class="pun">}</span><span class="tag">&gt;</span><span class="pln">Click Me</span><span class="tag">&lt;/button&gt;</span></code></li><li class="L0"><code class="language-html"><span class="pln">      </span><span class="tag">&lt;/div&gt;</span></code></li><li class="L1"><code class="language-html"><span class="pln">    );</span></code></li><li class="L2"><code class="language-html"><span class="pln">  }</span></code></li><li class="L3"><code class="language-html"><span class="pln">}</span></code></li><li class="L4"><code class="language-html"><span class="pln">export default MyComponent;</span></code></li></ol>
+          <div class="code-block-actions multiple-lines z-0">
+            <button title="Copy" class="action-code-block copy-code-block multiple-lines">
+              <i class="fa fa-copy" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-copy-8">Copied!</span>
+            </button>
+            <button title="Toggle Wrap" class="action-code-block wrap-code-block multiple-lines">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              <span class="popuptext" id="md-code-block-wrap-8">Wrap Toggled!</span>
+            </button>
+            
+            
+          </div>
+        </pre>
+</td>
+</tr>
+    
+    
+
+</tbody></table><footer>
+<img src="cheat_sheet_of_intro_to_class_component_with_react_files/ibmsn_footer_blue.png" alt="cognitiveclass.ai logo">
+</footer></body></html>
